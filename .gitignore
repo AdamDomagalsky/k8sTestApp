@@ -1,0 +1,5 @@
+.metrics/*
+!.metrics/.keep
+dump.rdb
+.DS_Store
+.github

@@ -1,0 +1,5 @@
+runner:
+  pylint:
+    cmd: find . -type f -name "*.py" | tr "\n" "\0" | xargs -0 pylint
+    errorformat:
+      - '%f:%l:%c:%m'
